@@ -85,6 +85,7 @@ export default {
       if (label == "linkedin") faIcon = "fab fa-linkedin";
       if (label == "twitter") faIcon = "fab fa-twitter";
       if (label == "medium") faIcon = "fab fa-medium";
+      if (label == "telegram") faIcon = "fab fa-telegram";
 
       return faIcon;
     }

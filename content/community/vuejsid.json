@@ -16,6 +16,10 @@
             "url": "https://github.com/vuejs-id"
         },
         {
+            "label": "telegram",
+            "url": "https://web.telegram.org/#/im?p=@vuejsid"
+        },
+        {
             "label": "Website",
             "url": "https://vuejs.id/"
         }
