@@ -13,6 +13,13 @@
         <div class="has-margin-top-5">
           <div class="field is-grouped is-grouped-multiline">
             <div class="control">
+              <img
+                class="tag has-background-white"
+                src="https://travis-ci.org/puterakahfi/awesome-js-dev-id.svg?branch=master"
+              />
+            </div>
+
+            <div class="control">
               <div class="tags has-addons">
                 <span class="tag is-dark">gridsome</span>
                 <span class="tag is-info">
