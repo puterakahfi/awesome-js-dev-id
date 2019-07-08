@@ -1,6 +1,6 @@
 {
     "name": "Putera Kahfi ",
-    "published": true,
+    "published": false,
     "description": "",
     "profile_image": "https://avatars2.githubusercontent.com/u/3124969?s=460&v=4",
     "company": null,
@@ -28,8 +28,8 @@
             "url": "https://github.com/puterakahfi"
         },
         {
-            "label" :"cv",
-            "url" :"https://puterakahfi.github.io/cv/"
+            "label": "cv",
+            "url": "https://puterakahfi.github.io/cv/"
         }
     ]
 }
