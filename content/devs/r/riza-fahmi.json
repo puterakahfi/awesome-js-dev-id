@@ -1,0 +1,24 @@
+{
+    "name": "Riza Fahmi ",
+    "published": true,
+    "description": "",
+    "company": "gojec",
+    "profile_image": "https://miro.medium.com/fit/c/128/128/1*ANisc4lZFBxuDsmdppFw7Q.jpeg",
+    "tags": [
+        ""
+    ],
+    "skills": [
+        "react",
+        "nodejs"
+    ],
+    "links": [
+        {
+            "label": "blog",
+            "url": "https://rizafahmi.com/"
+        },
+        {
+            "label": "medium",
+            "url": "https://medium.com/@rizafahmi22"
+        }
+    ]
+}
