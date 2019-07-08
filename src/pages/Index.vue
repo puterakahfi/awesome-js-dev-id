@@ -2,7 +2,7 @@
   <Layout class="container has-margin-top-50">
     <div class="columns">
       <div class="column is-4 has-margin-left-10 has-margin-right-10" data-aos="flip-left">
-        <RandomDev />
+        <RandomDev class="has-margin-right-10 has-margin-left-10"/>
         <h1 class="title is-5 has-margin-top-50 has-text-grey-light	"> 
           <i class="fas fa-users"></i>
           Komunitas javascript indonesia</h1>

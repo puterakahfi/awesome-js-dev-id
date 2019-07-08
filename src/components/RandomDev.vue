@@ -5,30 +5,27 @@
         class="tag is-white has-text-grey-light is-7 has-margin-top-20 has-margin-left-15"
       >Random Pick Developer</p>
 
-      <div class="card-image has-padding-50">
+      <div class="card-image has-padding-35">
         <figure class="image">
           <img
-            src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/static_assets_rpm6.svg"
+            :src="selectedDev.profile_image"
             alt="Placeholder image"
+            class="is-rounded"
           />
         </figure>
       </div>
       <div class="card-content">
         <div class="media has-margin-bottom-5">
-          <div class="media-left">
-            <figure class="image is-64x64">
-              <img class="is-rounded" :src="selectedDev.profile_image" alt="Placeholder image" />
-            </figure>
-          </div>
+          
           <div class="media-content">
             <p
               v-if="selectedDev.company !== ''"
-              class="is-size-7 has-margin-bottom-5 has-text-grey"
+              class="is-size-6 has-margin-bottom-5 has-text-grey"
             >Company: {{ selectedDev.company }}</p>
 
-            <p class="title is-3">{{ selectedDev.name }}</p>
-            <span class="tags has-margin-top-5">
-              <p class="tag" v-for="skill in selectedDev.skills" :key="skill">{{ skill }}</p>
+            <p class="title is-2">{{ selectedDev.name }}</p>
+            <span class="tags are-medium has-margin-top-5">
+              <p class="tag is-warning " v-for="skill in selectedDev.skills" :key="skill">{{ skill }}</p>
             </span>
           </div>
         </div>
@@ -51,6 +48,7 @@
         tags
         skills
         profile_image
+        company
         links{
           label
           url
