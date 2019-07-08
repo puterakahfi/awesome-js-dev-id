@@ -15,7 +15,7 @@
             <div class="control">
               <img
                 class="tag has-background-white"
-                src="https://travis-ci.org/puterakahfi/awesome-js-dev-id.svg?branch=master"
+                src="https://travis-ci.org/puterakahfi/awesome-js-dev-id.svg?branch=webversion"
               />
             </div>
 
