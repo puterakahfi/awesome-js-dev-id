@@ -5,7 +5,7 @@
         <div class="box has-padding-bottom-5 has-equal-height">
           <article class="media">
             <div class="media-left">
-              <figure class="image is-64x64">
+              <figure class="image is-96x96">
                 <br />
                 <img class="is-rounded" :src="dev.node.profile_image" alt="Image" />
               </figure>
@@ -75,8 +75,10 @@ export default {
 <style lang="scss" scoped>
 .box {
   box-shadow: none;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 0 0 25px rgba(103, 119, 239, 0.1);
+  box-shadow: none;
+  border: solid 1px #f5f5f5;
 }
 </style>
 

@@ -1,12 +1,13 @@
 <template>
-  <Layout class="container has-margin-top-50">
+  <Layout class="container">
     <div class="columns">
-      <div class="column is-4 has-margin-left-10 has-margin-right-10" data-aos="flip-left">
-        <RandomDev class="has-margin-right-10 has-margin-left-10"/>
-        <h1 class="title is-5 has-margin-top-50 has-text-grey-light	"> 
+      <div class="column is-3 has-margin-left-10 has-margin-right-10" data-aos="flip-left">
+        <RandomDev class />
+        <h1 class="title is-6 has-margin-top-50 has-text-grey-light">
           <i class="fas fa-users"></i>
-          Komunitas javascript indonesia</h1>
-          <Community />
+          Komunitas javascript indonesia
+        </h1>
+        <Community />
       </div>
       <div class="column is-8" data-aos="fade-down">
         <div class="has-margin-top-5">
@@ -45,27 +46,28 @@
               </div>
             </div>
           </div>
-          <h1 class="title is-1 has-margin-top-5">Awesome Indonesian Javascript Developer</h1>
+          <h1 class="title is-1 has-margin-top-5">Awesome Javascript Developer Indonesia</h1>
 
           <h1
-            class="subtitle is-5 has-text-grey has-margin-bottom-20"
+            class="subtitle is-5 has-text-grey-light has-margin-bottom-20"
           >Daftar developer/programmer javascript terkece asal Indonesia</h1>
+
+          <h6 class="subtitle is-6 has-margin-bottom-5 has-text-grey-light">
+            masukkan nama
+            <span
+              class="has-text-weight-bold"
+            >(fitur pencarian masih dalam tahap pengembangan)</span>
+          </h6>
 
           <b-field>
             <b-input
-              disabled
-              placeholder="Input awesome developer name"
+              placeholder=" masukkan nama (fitur pencarian masih dalam tahap pengembangan)"
               type="search"
               icon-pack="fas"
               icon="search"
+              size="is-medium"
             ></b-input>
           </b-field>
-          <h6 class="subtitle is-7 has-margin-bottom-10 has-text-grey-light">
-            masukkan nama untuk melakukan pencarian
-            <span
-              class="has-text-weight-bold"
-            >(fitur masih dalam tahap pengembangan)</span>
-          </h6>
 
           <Devs class="has-margin-top-50" :devs="devs" />
         </div>
@@ -99,7 +101,7 @@
 
 <script>
 import RandomDev from "~/components/RandomDev";
-import Community from "~/components/Community"
+import Community from "~/components/Community";
 import Devs from "~/components/Devs";
 export default {
   data() {
@@ -139,6 +141,8 @@ export default {
 .random-dev {
   background-color: #fff;
   box-shadow: 0 0 25px rgba(103, 119, 239, 0.1);
-  border-radius: 10px;
+  border-radius: 5px;
+  box-shadow: none;
+  border: solid 1px #f5f5f5;
 }
 </style>

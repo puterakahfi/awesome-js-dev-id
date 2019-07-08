@@ -1,31 +1,22 @@
 <template>
   <div class="card random-dev">
     <div class="card-front">
-      <p
-        class="tag is-white has-text-grey-light is-7 has-margin-top-20 has-margin-left-15"
-      >Random Pick Developer</p>
-
       <div class="card-image has-padding-35">
         <figure class="image">
-          <img
-            :src="selectedDev.profile_image"
-            alt="Placeholder image"
-            class="is-rounded"
-          />
+          <img :src="selectedDev.profile_image" alt="Placeholder image" class="is-rounded" />
         </figure>
       </div>
-      <div class="card-content">
+      <div class="card-content has-padding-20">
         <div class="media has-margin-bottom-5">
-          
           <div class="media-content">
             <p
               v-if="selectedDev.company !== ''"
-              class="is-size-6 has-margin-bottom-5 has-text-grey"
+              class="is-size-7 has-margin-bottom-5 has-text-grey"
             >Company: {{ selectedDev.company }}</p>
 
-            <p class="title is-2">{{ selectedDev.name }}</p>
-            <span class="tags are-medium has-margin-top-5">
-              <p class="tag is-warning " v-for="skill in selectedDev.skills" :key="skill">{{ skill }}</p>
+            <p class="title is-4">{{ selectedDev.name }}</p>
+            <span class="tags are-small">
+              <p class="tag is-warning" v-for="skill in selectedDev.skills" :key="skill">{{ skill }}</p>
             </span>
           </div>
         </div>

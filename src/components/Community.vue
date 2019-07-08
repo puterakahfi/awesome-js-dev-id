@@ -16,9 +16,8 @@
             </div>
             <div class="media-content">
               <div class="content">
-               
                 <h3
-                  class="subtitle is-4 has-margin-top-5 has-margin-bottom-10"
+                  class="subtitle is-6 has-margin-top-5 has-margin-bottom-10"
                 >{{ community.node.name }}</h3>
                 {{ community.node.description }}
                 <div class="is-flex">
@@ -33,7 +32,7 @@
                   </div>
                 </div>
 
-                 <br/>
+                <br />
               </div>
             </div>
           </article>
@@ -97,7 +96,8 @@ export default {
 <style lang="scss" scoped>
 .box {
   box-shadow: none;
-  border-radius: 10px;
   box-shadow: 0 0 25px rgba(103, 119, 239, 0.1);
+  box-shadow: none;
+  border: solid 1px #f5f5f5;
 }
 </style>
