@@ -17,7 +17,7 @@
             <div class="media-content">
               <div class="content">
                 <h3
-                  class="subtitle is-6 has-margin-top-5 has-margin-bottom-10"
+                  class="subtitle is-5 has-margin-top-5 has-margin-bottom-10"
                 >{{ community.node.name }}</h3>
                 {{ community.node.description }}
                 <div class="is-flex">
