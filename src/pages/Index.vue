@@ -1,8 +1,8 @@
 <template>
   <Layout class="container">
     <div class="columns">
-      <div class="column is-3 has-margin-left-10 has-margin-right-10" data-aos="flip-left">
-        <RandomDev class />
+      <div class="column is-3 has-margin-left-10 has-margin-right-10">
+        <RandomDev data-aos="zoom-in" />
         <h1 class="title is-6 has-margin-top-50 has-text-grey-light">
           <i class="fas fa-users"></i>
           Komunitas javascript indonesia
@@ -58,25 +58,17 @@
           <h1
             class="subtitle is-5 has-text-grey-light has-margin-bottom-20"
           >Daftar developer/programmer javascript terkece asal Indonesia</h1>
-
-          <h6 class="subtitle is-6 has-margin-bottom-5 has-text-grey-light">
-            masukkan nama
-            <span
-              class="has-text-weight-bold"
-            >(fitur pencarian masih dalam tahap pengembangan)</span>
-          </h6>
-
           <b-field>
             <b-input
-              placeholder=" masukkan nama (fitur pencarian masih dalam tahap pengembangan)"
+              placeholder=" masukkan nama untuk melakukan pencarian "
               type="search"
               icon-pack="fas"
               icon="search"
-              size="is-medium"
+              v-model="search"
             ></b-input>
           </b-field>
 
-          <Devs class="has-margin-top-50" :devs="devs" />
+          <Devs class="has-margin-top-50" :devs="filteredDev" />
         </div>
       </div>
     </div>
@@ -124,7 +116,31 @@ export default {
   },
   mounted() {
     this.devs = this.$page.devs.edges;
-    this.$snackbar.open(`Website ini masih dalam proses development`);
+  },
+  computed: {
+    filteredDev: function() {
+      const newArr = [...this.devs];
+
+      newArr.map(el => {
+        return (el.node.skills = el.node.skills.toString().split(","));
+      });
+
+      let newData = this.devs.filter(item => {
+        return (
+          item.node.name.toLowerCase().indexOf(this.search.toLowerCase()) > -1
+        );
+      });
+
+      if (this.search.length > 0 && this.search.toString().charAt(0) === "#") {
+        newData = this.devs.filter(item => {
+          return (
+            item.node.skills.join(",").indexOf(this.search.toLowerCase()) > -1
+          );
+        });
+      }
+
+      return newData;
+    }
   }
 };
 </script>
