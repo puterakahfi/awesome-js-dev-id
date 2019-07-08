@@ -1,0 +1,25 @@
+{
+    "name": "Rian Yulianto W ",
+    "published": true,
+    "description": "",
+    "company": "gojec",
+    "profile_image": "https://avatars0.githubusercontent.com/u/11639412?s=460&v=4",
+    "tags": [
+        ""
+    ],
+    "skills": [
+        "angular",
+        "typescript",
+        "vuejs"
+    ],
+    "links": [
+        {
+            "label": "github",
+            "url": "https://github.com/GulajavaMinistudio"
+        },
+        {
+            "label": "medium",
+            "url": "https://medium.com/kode-dan-kodean"
+        }
+    ]
+}
