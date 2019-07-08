@@ -3,7 +3,7 @@
     <div class="columns">
       <div class="column is-3 has-margin-left-10 has-margin-right-10">
         <RandomDev data-aos="zoom-in" />
-        <h1 class="title is-6 has-margin-top-50 has-text-grey-light">Komunitas</h1>
+        <h1 class="title is-5 has-margin-top-50 has-text-dark">Komunitas</h1>
         <Community />
       </div>
       <div class="column is-8" data-aos="fade-down">
