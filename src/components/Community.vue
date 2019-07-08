@@ -73,8 +73,6 @@ export default {
   },
   mounted() {
     this.communityData = this.$static.community.edges;
-    console.log(this.communityData);
-    this.$snackbar.open(`Website ini masih dalam proses development`);
   },
   methods: {
     convertLabelToIcon: function(label) {
