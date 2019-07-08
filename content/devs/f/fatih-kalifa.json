@@ -1,0 +1,39 @@
+{
+    "name": "Fatih Kalifa ",
+    "published": true,
+    "description": "",
+    "company": null,
+    "profile_image": "https://avatars3.githubusercontent.com/u/1614415?s=460&v=4",
+    "tags": [
+        "vuejs"
+    ],
+    "skills": [
+        "react",
+        "Svelte",
+        "Reason ML",
+        "Node JS",
+        "graphQL"
+    ],
+    "links": [
+        {
+            "label": "facebook",
+            "url": "https://www.facebook.com/pveyes"
+        },
+        {
+            "label": "github",
+            "url": "https://github.com/pveyes"
+        },
+        {
+            "label": "medium",
+            "url": "https://medium.com/@pveyes"
+        },
+        {
+            "label": "linkedin",
+            "url": "https://www.linkedin.com/in/fatihkalifa/"
+        },
+        {
+            "label": "twitter",
+            "url": "https://twitter.com/pveyes"
+        }
+    ]
+}

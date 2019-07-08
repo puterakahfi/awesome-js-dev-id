@@ -1,0 +1,31 @@
+{
+    "name": "Putera Kahfi ",
+    "published": true,
+    "description": "",
+    "profile_image": "https://avatars2.githubusercontent.com/u/3124969?s=460&v=4",
+    "company": null,
+    "organization": null,
+    "tags": [
+        "vuejs"
+    ],
+    "skills": [
+        "vuejs",
+        "vuepress",
+        "gridsome",
+        "nuxtjs"
+    ],
+    "links": [
+        {
+            "label": "facebook",
+            "url": "https://www.facebook.com/codejunior"
+        },
+        {
+            "label": "linkedin",
+            "url": "https://www.linkedin.com/in/putera-kahfi-52663b48"
+        },
+        {
+            "label": "github",
+            "url": "https://github.com/puterakahfi"
+        }
+    ]
+}

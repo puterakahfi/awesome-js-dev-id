@@ -1,0 +1,26 @@
+{
+    "name": "Ade Yahya Prasetyo ",
+    "published": true,
+    "description": "",
+    "company": null,
+    "profile_image": "https://avatars2.githubusercontent.com/u/10051243?s=460&v=4",
+    "tags": [
+        "vuejs"
+    ],
+    "skills": [
+        "react",
+        "react native",
+        "Node JS",
+        "graphQL"
+    ],
+    "links": [
+        {
+            "label": "facebook",
+            "url": "https://www.facebook.com/adeyahyap"
+        },
+        {
+            "label": "github",
+            "url": "https://github.com/adeyahya"
+        }
+    ]
+}

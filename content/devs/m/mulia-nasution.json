@@ -1,0 +1,27 @@
+{
+    "name": "Mulia Nasution ",
+    "published": true,
+    "description": "",
+    "company": null,
+    "profile_image": "https://avatars0.githubusercontent.com/u/113989?s=460&v=4",
+    "tags": [
+        "vuejs"
+    ],
+    "skills": [
+        "vuejs"
+    ],
+    "links": [
+        {
+            "label": "facebook",
+            "url": "https://www.facebook.com/mul14"
+        },
+        {
+            "label": "github",
+            "url": "https://github.com/mul14"
+        },
+        {
+            "label": "twitter",
+            "url": "https://twitter.com/mul14"
+        }
+    ]
+}

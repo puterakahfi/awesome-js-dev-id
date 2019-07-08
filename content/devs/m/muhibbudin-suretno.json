@@ -1,0 +1,41 @@
+{
+    "name": "Muhibbudin Suretno ",
+    "published": true,
+    "description": "",
+    "company": null,
+    "profile_image": "https://avatars2.githubusercontent.com/u/17744043?s=460&v=4",
+    "tags": [
+        "vuejs"
+    ],
+    "skills": [
+        "vuejs",
+        "typescript",
+        "nodejs"
+    ],
+    "links": [
+        {
+            "label": "facebook",
+            "url": "https://web.facebook.com/muhibbudins"
+        },
+        {
+            "label": "github",
+            "url": "https://github.com/muhibbudins"
+        },
+        {
+            "label": "twitter",
+            "url": "https://twitter.com/muhibbudins"
+        },
+        {
+            "label": "linkedin",
+            "url": "https://www.linkedin.com/in/muhibbudins/"
+        },
+        {
+            "label": "medium",
+            "url": "https://medium.com/@muhibbudins"
+        },
+        {
+            "label": "blog",
+            "url": "https://muhibbudins.me/"
+        }
+    ]
+}
