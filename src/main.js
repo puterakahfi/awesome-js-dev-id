@@ -2,17 +2,25 @@
 import DefaultLayout from "~/layouts/Default.vue";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import Buefy from "buefy";
+
+import AOS from "aos";
+
+import "aos/dist/aos.css";
+
 import SocialSharing from "vue-social-sharing";
 import "bulma-helpers/css/bulma-helpers.min.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import "~/assets/style/main.scss";
 
 
-export default function(Vue, { router, head, isClient }) {
+export default function (Vue, { router, head, isClient }) {
   head.link.push({
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/icon?family=Material+Icons"
   });
+
+
+  Vue.prototype.$aos = AOS;
 
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
@@ -22,4 +30,10 @@ export default function(Vue, { router, head, isClient }) {
   });
 
   Vue.use(SocialSharing);
+
+
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://use.fontawesome.com/releases/v5.7.2/css/all.css'
+  })
 }

@@ -1,7 +1,6 @@
 <template>
   <div class="layout has-margin-top-50">
-
-    <slot/>
+    <slot />
   </div>
 </template>
 
@@ -15,9 +14,10 @@ query {
 
 <style>
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
   line-height: 1.5;
 }
 
@@ -40,3 +40,12 @@ body {
   margin-left: 20px;
 }
 </style>
+
+
+<script>
+export default {
+  mounted() {
+    this.$aos.init();
+  }
+};
+</script>
