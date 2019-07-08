@@ -31,8 +31,6 @@
                     </b-tooltip>
                   </div>
                 </div>
-
-                <br />
               </div>
             </div>
           </article>
