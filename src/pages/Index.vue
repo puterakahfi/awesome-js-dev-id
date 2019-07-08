@@ -25,7 +25,7 @@
 
             <div class="control">
               <div class="tags has-addons">
-                <span class="tag is-dark">github</span>
+                <span class="tag is-dark">contribute</span>
                 <span class="tag is-primary">
                   <a
                     class="has-text-white"
@@ -38,7 +38,8 @@
               </div>
             </div>
           </div>
-          <h1 class="title is-1">Javascript Indonesia Developer Directory</h1>
+          <h1 class="title is-4 is-marginless has-margin-top-20">awesome</h1>
+          <h1 class="title is-1">Javascript Indonesia Developer</h1>
 
           <h1
             class="subtitle is-4 has-text-grey has-margin-bottom-20"
