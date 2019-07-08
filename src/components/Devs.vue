@@ -17,7 +17,7 @@
                   class="is-size-7 has-margin-bottom-5 has-text-grey"
                 >Company: {{ dev.node.company }}</p>
 
-                <h3 class="subtitle is-4 has-margin-top-5 has-margin-bottom-10">{{ dev.node.name }}</h3>
+                <h3 class="subtitle is-5 has-margin-top-5 has-margin-bottom-10">{{ dev.node.name }}</h3>
                 {{ dev.node.description }}
                 <div class="tags are-small">
                   <span class="tag" v-for="skill in dev.node.skills" :key="skill">{{ skill }}</span>
@@ -60,7 +60,7 @@ export default {
     convertLabelToIcon: function(label) {
       let faIcon = "fas fa-link";
       // this using font awesome
-      if (label == "facebook") faIcon = "fab fa-facebook-f";
+      if (label == "facebook") faIcon = "fab fa-facebook";
       if (label == "github") faIcon = "fab fa-github";
       if (label == "linkedin") faIcon = "fab fa-linkedin";
       if (label == "twitter") faIcon = "fab fa-twitter";
@@ -78,7 +78,13 @@ export default {
   border-radius: 5px;
   box-shadow: 0 0 25px rgba(103, 119, 239, 0.1);
   box-shadow: none;
-  border: solid 1px #f5f5f5;
+  border: solid 1px #f7f7f7;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(103, 119, 239, 0.1);
+  }
 }
 </style>
 
