@@ -26,6 +26,10 @@
         {
             "label": "github",
             "url": "https://github.com/puterakahfi"
+        },
+        {
+            "label" :"cv",
+            "url" :"https://puterakahfi.github.io/cv/"
         }
     ]
 }

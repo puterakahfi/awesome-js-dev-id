@@ -2,12 +2,11 @@
 import DefaultLayout from "~/layouts/Default.vue";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import Buefy from "buefy";
-
 import AOS from "aos";
+import VueGithubActivity from 'vue-github-activity'
+import SocialSharing from "vue-social-sharing";
 
 import "aos/dist/aos.css";
-
-import SocialSharing from "vue-social-sharing";
 import "bulma-helpers/css/bulma-helpers.min.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import "~/assets/style/main.scss";
@@ -31,6 +30,7 @@ export default function (Vue, { router, head, isClient }) {
 
   Vue.use(SocialSharing);
 
+  Vue.use(VueGithubActivity)
 
   head.link.push({
     rel: 'stylesheet',

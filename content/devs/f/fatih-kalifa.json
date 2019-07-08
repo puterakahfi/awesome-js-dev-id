@@ -2,7 +2,7 @@
     "name": "Fatih Kalifa ",
     "published": true,
     "description": "",
-    "company": null,
+    "company": "Traveloka",
     "profile_image": "https://avatars3.githubusercontent.com/u/1614415?s=460&v=4",
     "tags": [
         "vuejs"
@@ -34,6 +34,10 @@
         {
             "label": "twitter",
             "url": "https://twitter.com/pveyes"
+        },
+        {
+            "label": "Blog",
+            "url" : "https://fatihkalifa.com/"       
         }
     ]
 }

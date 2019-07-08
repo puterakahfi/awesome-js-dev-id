@@ -18,6 +18,16 @@ module.exports = {
           // remark options
         }
       }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "content/community/**/*.json",
+        typeName: "Community",
+        remark: {
+          // remark options
+        }
+      }
     }
   ]
 };

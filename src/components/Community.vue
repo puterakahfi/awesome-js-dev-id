@@ -1,38 +1,39 @@
 <template>
   <div>
     <div class="columns is-multiline">
-      <div class="column is-6" v-for="dev in devs" :key="dev.id" data-aos="zoom-in">
+      <div
+        class="column is-12"
+        v-for="community in communityData"
+        :key="community.id"
+        data-aos="fade-up"
+      >
         <div class="box has-padding-bottom-5 has-equal-height">
           <article class="media">
             <div class="media-left">
               <figure class="image is-64x64">
-                <br />
-                <img class="is-rounded" :src="dev.node.profile_image" alt="Image" />
+                <img :src="community.node.profile_image" alt="Image" />
               </figure>
             </div>
             <div class="media-content">
               <div class="content">
-                <p
-                  v-if="dev.node.company !== ''"
-                  class="is-size-7 has-margin-bottom-5 has-text-grey"
-                >Company: {{ dev.node.company }}</p>
-
-                <h3 class="subtitle is-4 has-margin-top-5 has-margin-bottom-10">{{ dev.node.name }}</h3>
-                {{ dev.node.description }}
-                <div class="tags">
-                  <span class="tag" v-for="skill in dev.node.skills" :key="skill">{{ skill }}</span>
-                </div>
+               
+                <h3
+                  class="subtitle is-4 has-margin-top-5 has-margin-bottom-10"
+                >{{ community.node.name }}</h3>
+                {{ community.node.description }}
                 <div class="is-flex">
-                  <div class v-for="link in dev.node.links" :key="link.label">
+                  <div class v-for="link in community.node.links" :key="link.label">
                     <b-tooltip :label="link.label" type="is-light">
                       <a class="button is-white" target="_blank" :href="link.url">
-                        <span class="icon is-small">
+                        <span class="icon is-big">
                           <i :class="convertLabelToIcon(link.label)"></i>
                         </span>
                       </a>
                     </b-tooltip>
                   </div>
                 </div>
+
+                 <br/>
               </div>
             </div>
           </article>
@@ -41,20 +42,40 @@
     </div>
   </div>
 </template>
-<script>
-import { faGithub, faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
+
+
+<static-query>
+{
+  community: allCommunity (filter: { published: { eq: true }},sortBy: "name", order: ASC){
+    edges {
+      node {
+        id
+        name
+        description
+        profile_image
+        tags
+        links{
+          label
+          url
+        }
+      }
+    }
+  }
+}
+</static-query>
+
+<script>
 export default {
-  props: ["devs"],
   data() {
     return {
-      facebook: faFacebook,
-      github: faGithub
+      communityData: []
     };
   },
-  components: {
-    FontAwesomeIcon
+  mounted() {
+    this.communityData = this.$static.community.edges;
+    console.log(this.communityData);
+    this.$snackbar.open(`Website ini masih dalam proses development`);
   },
   methods: {
     convertLabelToIcon: function(label) {
@@ -72,6 +93,7 @@ export default {
 };
 </script>
 
+
 <style lang="scss" scoped>
 .box {
   box-shadow: none;
@@ -79,4 +101,3 @@ export default {
   box-shadow: 0 0 25px rgba(103, 119, 239, 0.1);
 }
 </style>
-

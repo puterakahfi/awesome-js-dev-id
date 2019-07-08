@@ -1,6 +1,13 @@
 <template>
   <Layout class="container has-margin-top-50">
     <div class="columns">
+      <div class="column is-4 has-margin-left-10 has-margin-right-10" data-aos="flip-left">
+        <RandomDev />
+        <h1 class="title is-5 has-margin-top-50 has-text-grey-light	"> 
+          <i class="fas fa-users"></i>
+          Komunitas javascript indonesia</h1>
+          <Community />
+      </div>
       <div class="column is-8" data-aos="fade-down">
         <div class="has-margin-top-5">
           <div class="field is-grouped is-grouped-multiline">
@@ -38,24 +45,30 @@
               </div>
             </div>
           </div>
-          <h1 class="title is-4 is-marginless has-margin-top-20">awesome</h1>
-          <h1 class="title is-1">Javascript Indonesia Developer</h1>
+          <h1 class="title is-1 has-margin-top-5">Awesome Indonesian Javascript Developer</h1>
 
           <h1
-            class="subtitle is-4 has-text-grey has-margin-bottom-20"
+            class="subtitle is-5 has-text-grey has-margin-bottom-20"
           >Daftar developer/programmer javascript terkece asal Indonesia</h1>
 
-          <h6
-            class="subtitle is-7 has-margin-bottom-10 has-text-grey-light"
-          >masukkan nama untuk melakukan pencarian (fitur masih dalam tahap pengembangan)</h6>
-          <div class="field has-addons has-margin-top-5">
-            <input class="input is-fullwidth" type="text" disabled placeholder="Developer name" />
-          </div>
+          <b-field>
+            <b-input
+              disabled
+              placeholder="Input awesome developer name"
+              type="search"
+              icon-pack="fas"
+              icon="search"
+            ></b-input>
+          </b-field>
+          <h6 class="subtitle is-7 has-margin-bottom-10 has-text-grey-light">
+            masukkan nama untuk melakukan pencarian
+            <span
+              class="has-text-weight-bold"
+            >(fitur masih dalam tahap pengembangan)</span>
+          </h6>
+
           <Devs class="has-margin-top-50" :devs="devs" />
         </div>
-      </div>
-      <div class="column is-4" data-aos="flip-left">
-        <RandomDev class="has-margin-20" />
       </div>
     </div>
   </Layout>
@@ -69,6 +82,7 @@
       node {
         id
         name
+        company
         description
         profile_image
         tags
@@ -85,6 +99,7 @@
 
 <script>
 import RandomDev from "~/components/RandomDev";
+import Community from "~/components/Community"
 import Devs from "~/components/Devs";
 export default {
   data() {
@@ -95,7 +110,8 @@ export default {
   },
   components: {
     Devs,
-    RandomDev
+    RandomDev,
+    Community
   },
   mounted() {
     this.devs = this.$page.devs.edges;
