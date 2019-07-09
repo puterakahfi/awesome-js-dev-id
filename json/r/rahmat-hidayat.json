@@ -1,0 +1,34 @@
+{
+    "name": "Rahmat Hidayat ",
+    "published": true,
+    "description": "",
+    "company": "",
+    "profile_image": "https://avatars0.githubusercontent.com/u/5003439?s=460&v=4",
+    "tags": [
+        ""
+    ],
+    "skills": [
+        "react",
+        "typescript",
+        "nodejs",
+        "graphQL"
+    ],
+    "links": [
+        {
+            "label": "github",
+            "url": "https://github.com/rahmatrhd"
+        },
+        {
+            "label": "twitter",
+            "url": "https://twitter.com/rahmathd_"
+        },
+        {
+            "label": "linkedin",
+            "url": "https://www.linkedin.com/in/rahmat-hidayat-8671a268/"
+        },
+        {
+            "label": "blog",
+            "url": "https://www.rahmathd.com/"
+        }
+    ]
+}

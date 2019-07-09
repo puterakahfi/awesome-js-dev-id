@@ -1,0 +1,36 @@
+{
+    "name": "Irfan Maulana ",
+    "published": true,
+    "description": "",
+    "company": "Tokopedia",
+    "profile_image": "https://avatars2.githubusercontent.com/u/7221389?s=460&v=4",
+    "tags": [
+        "vuejs"
+    ],
+    "skills": [
+        "vuejs",
+        "react"
+    ],
+    "links": [
+        {
+            "label": "facebook",
+            "url": "https://www.facebook.com/mazipanneh"
+        },
+        {
+            "label": "github",
+            "url": "https://github.com/mazipan"
+        },
+        {
+            "label": "twitter",
+            "url": "https://twitter.com/Maz_Ipan"
+        },
+        {
+            "label": "medium",
+            "url": "https://medium.com/@mazipan"
+        },
+        {
+            "label": "blog",
+            "url": "https://www.mazipan.xyz/"
+        }
+    ]
+}
