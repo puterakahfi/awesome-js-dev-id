@@ -1,0 +1,30 @@
+{
+    "name": "Fawwaz Muhammad ",
+    "published": true,
+    "description": "",
+    "company": "Traveloka",
+    "profile_image": "https://avatars3.githubusercontent.com/u/1614415?s=460&v=4",
+    "tags": [],
+    "skills": [
+        "react",
+        "Node JS"
+    ],
+    "links": [
+        {
+            "label": "facebook",
+            "url": "http://facebook.com/fawwazmuhammad"
+        },
+        {
+            "label": "github",
+            "url": "https://github.com/fawwaz"
+        },
+        {
+            "label": "twitter",
+            "url": "http://twitter.com/fawwaz_muhammad"
+        },
+        {
+            "label": "Blog",
+            "url": "http://fawwazmuhammad.com/"
+        }
+    ]
+}
