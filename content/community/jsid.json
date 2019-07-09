@@ -12,6 +12,10 @@
         {
             "label": "facebook",
             "url": "https://www.facebook.com/groups/sencha.indo.admin/"
+        },
+        {
+            "label": "telegram",
+            "url": "https://t.me/js_id"
         }
     ]
 }

@@ -76,7 +76,7 @@ export default {
     convertLabelToIcon: function(label) {
       let faIcon = "fas fa-link";
       // this using font awesome
-      if (label == "facebook") faIcon = "fab fa-facebook-f";
+      if (label == "facebook") faIcon = "fab fa-facebook";
       if (label == "github") faIcon = "fab fa-github";
       if (label == "linkedin") faIcon = "fab fa-linkedin";
       if (label == "twitter") faIcon = "fab fa-twitter";
