@@ -8,12 +8,11 @@
       </div>
       <div class="column is-8" data-aos="fade-down">
         <div class="has-margin-top-5">
-      
           <h1 class="title is-1 has-margin-top-5">Awesome Javascript Developer Indonesia</h1>
-
           <h1
             class="subtitle is-5 has-text-grey-light has-margin-bottom-20"
           >Daftar developer/programmer javascript terkece asal Indonesia</h1>
+
           <b-field>
             <b-input
               placeholder=" masukkan nama untuk melakukan pencarian "
@@ -59,7 +58,8 @@
 import RandomDev from "~/components/RandomDev";
 import Community from "~/components/Community";
 import Devs from "~/components/Devs";
-import Footer from "~/components/organisms/Footer"
+import Footer from "~/components/organisms/Footer";
+import SearchInput from "~/components/molecules/SearchInput";
 export default {
   data() {
     return {
@@ -71,7 +71,8 @@ export default {
     Devs,
     RandomDev,
     Community,
-    Footer
+    Footer,
+    SearchInput
   },
   mounted() {
     this.devs = this.$page.devs.edges;
@@ -99,6 +100,11 @@ export default {
       }
 
       return newData;
+    }
+  },
+  methods: {
+    updateValue: function(event) {
+      alert(event);
     }
   }
 };
