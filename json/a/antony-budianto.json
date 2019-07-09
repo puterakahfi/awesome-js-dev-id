@@ -1,0 +1,37 @@
+{
+    "name": "Antony Budianto",
+    "sex": "male",
+    "published": true,
+    "description": "",
+    "company": "",
+    "profile_image": "https://avatars3.githubusercontent.com/u/7658554?s=460&v=4",
+    "skills": [
+        "react"
+    ],
+    "links": [
+        {
+            "label": "facebook",
+            "url": "https://facebook.com/antonybudianto"
+        },
+        {
+            "label": "github",
+            "url": "https://github.com/antonybudianto"
+        },
+        {
+            "label": "linkedin",
+            "url": "https://linkedin.com/in/antonybudianto"
+        },
+        {
+            "label": "medium",
+            "url": "https://medium.com/@antonybudianto"
+        },
+        {
+            "label": "twitter",
+            "url": "https://twitter.com/antonybudianto"
+        },
+        {
+            "label": "youtube",
+            "url": "https://www.youtube.com/antonybudianto"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Afrian Junior",
+    "published": true,
+    "description": "",
+    "company": "",
+    "profile_image": "https://cdn.pixabay.com/photo/2014/04/02/10/25/man-303792_960_720.png",
+    "skills": [
+        "react"
+    ],
+    "links": [
+        {
+            "label": "medium",
+            "url": "https://medium.com/@afrimadonidinata"
+        }
+    ]
+}

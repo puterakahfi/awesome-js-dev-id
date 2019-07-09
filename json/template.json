@@ -1,0 +1,44 @@
+{
+    "name": " ",
+    "sex": "male",
+    "published": false,
+    "description": "",
+    "company": "",
+    "profile_image": "https://cdn.pixabay.com/photo/2014/04/02/10/25/man-303792_960_720.png",
+    "skills": [
+        "react",
+        "react native",
+        "NodeJS",
+        "graphQL"
+    ],
+    "links": [
+        {
+            "label": "blog",
+            "url": ""
+        },
+        {
+            "label": "facebook",
+            "url": ""
+        },
+        {
+            "label": "github",
+            "url": ""
+        },
+        {
+            "label": "linkedin",
+            "url": ""
+        },
+        {
+            "label": "medium",
+            "url": ""
+        },
+        {
+            "label": "twitter",
+            "url": ""
+        },
+        {
+            "label": "youtube",
+            "url": ""
+        }
+    ]
+}

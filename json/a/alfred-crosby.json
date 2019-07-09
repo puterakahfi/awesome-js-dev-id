@@ -1,0 +1,17 @@
+{
+    "name": "Alfred Crosby ",
+    "sex": "male",
+    "published": true,
+    "description": "",
+    "company": "",
+    "profile_image": "https://miro.medium.com/fit/c/128/128/1*8MpegEDcL5bwOwMqzmWFlg.jpeg",
+    "skills": [
+        "react"
+    ],
+    "links": [
+        {
+            "label": "medium",
+            "url": "https://medium.com/@alfrcr"
+        }
+    ]
+}
