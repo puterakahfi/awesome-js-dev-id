@@ -1,6 +1,7 @@
 <template>
   <div class="card random-dev">
     <div class="card-front">
+        <span class="tag is-white has-text-grey-light	  is-small has-margin-top-5 has-margin-left-5">Random pick developer</span>
       <div class="card-image has-padding-35">
         <figure class="image">
           <img :src="selectedDev.profile_image" alt="Placeholder image" class="is-rounded" />
@@ -11,10 +12,10 @@
           <div class="media-content">
             <p
               v-if="selectedDev.company !== ''"
-              class="is-size-7 has-margin-bottom-5 has-text-grey"
+              class="is-size-6 has-margin-bottom-5 has-text-grey"
             >Company: {{ selectedDev.company }}</p>
 
-            <p class="title is-4">{{ selectedDev.name }}</p>
+            <p class="title is-2">{{ selectedDev.name }}</p>
             <span class="tags are-small">
               <p class="tag is-warning" v-for="skill in selectedDev.skills" :key="skill">{{ skill }}</p>
             </span>

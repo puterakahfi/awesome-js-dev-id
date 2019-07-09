@@ -1,6 +1,7 @@
 <template>
   <div class="layout has-padding-top-50">
     <slot />
+    
   </div>
 </template>
 

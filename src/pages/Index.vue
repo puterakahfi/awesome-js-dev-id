@@ -1,60 +1,18 @@
 <template>
-  <Layout class="container">
+  <Layout>
     <div class="columns">
-      <div class="column is-3 has-margin-left-10 has-margin-right-10 is-hidden-mobile	
-">
+      <div class="column is-3 has-margin-left-10 has-margin-right-10 is-hidden-mobile">
         <RandomDev data-aos="zoom-in" />
         <h1 class="title is-5 has-margin-top-50 has-text-dark">Komunitas</h1>
         <Community />
       </div>
       <div class="column is-8" data-aos="fade-down">
         <div class="has-margin-top-5">
-          <div class="field is-grouped is-grouped-multiline">
-            <div class="control">
-              <img
-                class="tag has-background-white"
-                src="https://travis-ci.org/puterakahfi/awesome-js-dev-id.svg?branch=webversion"
-              />
-            </div>
-
-            <div class="control">
-              <div class="tags has-addons">
-                <span class="tag is-dark">gridsome</span>
-                <span class="tag is-info">
-                  <a class="has-text-white" target="_blank" href="https://gridsome.org/">0.6.5</a>
-                </span>
-              </div>
-            </div>
-
-            <div class="control">
-              <div class="tags has-addons">
-                <span class="tag is-dark">buefy</span>
-
-                <span class="tag is-success">
-                  <a class="has-text-white" target="_blank" href="https://buefy.org/">0.7.8</a>
-                </span>
-              </div>
-            </div>
-
-            <div class="control">
-              <div class="tags has-addons">
-                <span class="tag is-dark">contribute</span>
-                <span class="tag is-primary">
-                  <a
-                    class="has-text-white"
-                    target="_blank"
-                    href="https://github.com/puterakahfi/awesome-js-dev-id"
-                  >
-                    <i class="fab fa-github"></i>
-                  </a>
-                </span>
-              </div>
-            </div>
-          </div>
+      
           <h1 class="title is-1 has-margin-top-5">Awesome Javascript Developer Indonesia</h1>
 
           <h1
-            class="subtitle is-4 has-text-grey-light has-margin-bottom-20"
+            class="subtitle is-5 has-text-grey-light has-margin-bottom-20"
           >Daftar developer/programmer javascript terkece asal Indonesia</h1>
           <b-field>
             <b-input
@@ -70,6 +28,7 @@
         </div>
       </div>
     </div>
+    <Footer></Footer>
   </Layout>
 </template>
 
@@ -100,6 +59,7 @@
 import RandomDev from "~/components/RandomDev";
 import Community from "~/components/Community";
 import Devs from "~/components/Devs";
+import Footer from "~/components/organisms/Footer"
 export default {
   data() {
     return {
@@ -110,7 +70,8 @@ export default {
   components: {
     Devs,
     RandomDev,
-    Community
+    Community,
+    Footer
   },
   mounted() {
     this.devs = this.$page.devs.edges;
