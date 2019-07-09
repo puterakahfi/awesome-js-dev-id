@@ -82,9 +82,12 @@ export default {
   transition: all 0.3s ease-in-out;
 
   &:hover {
-    transform: scale(1.1);
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
     box-shadow: 0 0 25px rgba(103, 119, 239, 0.1);
+    color: currentColor;
   }
 }
 </style>
+
 

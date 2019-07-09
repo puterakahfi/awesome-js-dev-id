@@ -1,7 +1,9 @@
 <template>
   <div class="card random-dev">
     <div class="card-front">
-        <span class="tag is-white has-text-grey-light	  is-small has-margin-top-5 has-margin-left-5">Random pick developer</span>
+      <span
+        class="tag is-white has-text-grey-light is-small has-margin-top-5 has-margin-left-5"
+      >Random pick developer</span>
       <div class="card-image has-padding-35">
         <figure class="image">
           <img :src="selectedDev.profile_image" alt="Placeholder image" class="is-rounded" />
@@ -16,7 +18,7 @@
             >Company: {{ selectedDev.company }}</p>
 
             <p class="title is-2">{{ selectedDev.name }}</p>
-            <span class="tags are-small">
+            <span class="tags are-medium">
               <p class="tag is-warning" v-for="skill in selectedDev.skills" :key="skill">{{ skill }}</p>
             </span>
           </div>
@@ -72,5 +74,11 @@ export default {
 
 <style lang="scss" scoped>
 .card {
+  &:hover {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+    box-shadow: 0 0 25px rgba(103, 119, 239, 0.1);
+    color: currentColor;
+  }
 }
 </style>
