@@ -1,0 +1,42 @@
+{
+    "name": "Jihad Dzikri Waspada ",
+    "sex": "male",
+    "published": true,
+    "description": "",
+    "company": "",
+    "profile_image": "https://miro.medium.com/fit/c/256/256/1*slwlUF_AGu7U4Py0PfpH0w.jpeg",
+    "skills": [
+        "react",
+        "typescript"
+    ],
+    "links": [
+        {
+            "label": "web",
+            "url": "https://jihadwaspada.com/"
+        },
+        {
+            "label": "facebook",
+            "url": ""
+        },
+        {
+            "label": "github",
+            "url": ""
+        },
+        {
+            "label": "linkedin",
+            "url": ""
+        },
+        {
+            "label": "medium",
+            "url": ""
+        },
+        {
+            "label": "twitter",
+            "url": ""
+        },
+        {
+            "label": "youtube",
+            "url": ""
+        }
+    ]
+}

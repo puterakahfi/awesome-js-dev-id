@@ -1,0 +1,18 @@
+{
+    "name": "Jacky Efendi",
+    "sex": "male",
+    "published": true,
+    "description": "",
+    "company": "Tokopedia",
+    "profile_image": "https://media.licdn.com/dms/image/C5103AQFDQ04Ln_uMbQ/profile-displayphoto-shrink_800_800/0?e=1568246400&v=beta&t=QWhzbTe6pJCcWKey9XCPMLNOjk1B-llfV9A-UXT58Y0",
+    "skills": [
+        "reactJS",
+        "NodeJS"
+    ],
+    "links": [
+        {
+            "label": "linkedin",
+            "url": "https://www.linkedin.com/in/jackyef/"
+        }
+    ]
+}

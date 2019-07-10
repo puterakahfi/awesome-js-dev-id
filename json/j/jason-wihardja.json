@@ -1,0 +1,17 @@
+{
+    "name": "Jason Wihardja",
+    "sex": "male",
+    "published": true,
+    "description": "",
+    "company": "",
+    "profile_image": "https://media.licdn.com/dms/image/C5603AQGHI7TEKtcLPg/profile-displayphoto-shrink_800_800/0?e=1568246400&v=beta&t=9KUuQeJQ_SQ8QmJn4RDeQjSGVyGUpH2Xx9TNnFdZB8g",
+    "skills": [
+        "NodeJS"
+    ],
+    "links": [
+        {
+            "label": "linkedin",
+            "url": "https://www.linkedin.com/in/jasonwihardja/"
+        }
+    ]
+}
