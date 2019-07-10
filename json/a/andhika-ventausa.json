@@ -3,7 +3,7 @@
     "sex": "male",
     "published": true,
     "description": "",
-    "company": "",
+    "company": "Kumparan",
     "profile_image": "https://scontent-sin2-1.xx.fbcdn.net/v/t1.0-9/46445271_10212763013737282_6015418112583663616_n.jpg?_nc_cat=101&_nc_eui2=AeEWMoAA3O9zZDWsIjDioRncZHIYh7ly7BE8Poso-bQeigPjW9640W-68R2uAMDAodGsFfC6KaNaRd_N0l64snGOj2RpYDmhy_Iq1HGHz08qPw&_nc_oc=AQkhSXvsa8qbwin99EucdwLB9ZRRPZjHWwaVVdIub_xkutfwEn1eB6y7XW87vNQINgw&_nc_ht=scontent-sin2-1.xx&oh=d5bf2074620258ffe31fab9dd0c0c0d3&oe=5DB5CE9B",
     "skills": [
         "React",
