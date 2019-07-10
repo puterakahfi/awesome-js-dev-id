@@ -1,0 +1,17 @@
+{
+    "name": "Agastrya Darma Laksana ",
+    "sex": "male",
+    "published": true,
+    "description": "",
+    "company": "Kumparan",
+    "profile_image": "https://miro.medium.com/fit/c/256/256/0*On8B0UYQus9EAP0O.",
+    "skills": [
+        "reactJS"
+    ],
+    "links": [
+        {
+            "label": "medium",
+            "url": "https://medium.com/@agastyadarma"
+        }
+    ]
+}

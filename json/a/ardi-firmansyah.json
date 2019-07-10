@@ -1,0 +1,17 @@
+{
+    "name": "Ardi Firmansyah ",
+    "sex": "male",
+    "published": true,
+    "description": "",
+    "company": "Traveloka",
+    "profile_image": "https://media.licdn.com/dms/image/C4E03AQFnNawgj6TbzQ/profile-displayphoto-shrink_800_800/0?e=1568246400&v=beta&t=56eOmbt1FSjTdIc9zCslA1KtTzuZ2swRt1F98lWLsiU",
+    "skills": [
+        "web"
+    ],
+    "links": [
+        {
+            "label": "linkedin",
+            "url": "https://www.linkedin.com/in/ardi-firmansyah/"
+        }
+    ]
+}
