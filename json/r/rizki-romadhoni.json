@@ -1,0 +1,20 @@
+{
+    "name": " Rizki Romadhoni",
+    "sex": "male",
+    "published": true,
+    "description": "",
+    "company": "",
+    "profile_image": "https://cdn.pixabay.com/photo/2014/04/02/10/25/man-303792_960_720.png",
+    "skills": [
+        "react",
+        "react native",
+        "NodeJS",
+        "graphQL"
+    ],
+    "links": [
+        {
+            "label": "linkedin",
+            "url": "https://www.linkedin.com/in/rizki-romadhoni-0a0bb0b8/"
+        }
+    ]
+}

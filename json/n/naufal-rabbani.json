@@ -1,0 +1,22 @@
+{
+    "name": "Naufal Rabbani ",
+    "sex": "male",
+    "published": true,
+    "description": "",
+    "company": "",
+    "profile_image": "https://avatars0.githubusercontent.com/u/12091318?s=460&v=4",
+    "skills": [
+        "react",
+        "vuejs"
+    ],
+    "links": [
+        {
+            "label": "github",
+            "url": "https://github.com/BosNaufal"
+        },
+        {
+            "label": "medium",
+            "url": "https://medium.com/@BosNaufal"
+        }
+    ]
+}

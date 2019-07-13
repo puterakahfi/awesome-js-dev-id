@@ -1,0 +1,34 @@
+{
+    "name": "Resi Respati ",
+    "sex": "male",
+    "published": true,
+    "description": "",
+    "company": "",
+    "profile_image": "https://avatars0.githubusercontent.com/u/5663877?s=460&v=4",
+    "skills": [
+        "react",
+        "typescript"
+    ],
+    "links": [
+        {
+            "label": "blog",
+            "url": "https://resir014.xyz/"
+        },
+        {
+            "label": "github",
+            "url": "https://github.com/resir014"
+        },
+        {
+            "label": "linkedin",
+            "url": "https://www.linkedin.com/in/resir014/"
+        },
+        {
+            "label": "medium",
+            "url": "https://medium.com/@resir014"
+        },
+        {
+            "label": "twitter",
+            "url": "https://twitter.com/resir014"
+        }
+    ]
+}

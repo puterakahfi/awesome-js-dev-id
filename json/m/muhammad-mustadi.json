@@ -1,0 +1,30 @@
+{
+    "name": "Muhammad Mustadi ",
+    "sex": "male",
+    "published": true,
+    "description": "",
+    "company": "",
+    "profile_image": "https://avatars0.githubusercontent.com/u/3748658?s=460&v=4",
+    "skills": [
+        "react",
+        "NodeJS"
+    ],
+    "links": [
+        {
+            "label": "blog",
+            "url": "https://mathdro.id/"
+        },
+        {
+            "label": "facebook",
+            "url": "https://www.facebook.com/mathdroid"
+        },
+        {
+            "label": "github",
+            "url": "https://github.com/mathdroid"
+        },
+        {
+            "label": "twitter",
+            "url": "https://twitter.com/mathdroid"
+        }
+    ]
+}
