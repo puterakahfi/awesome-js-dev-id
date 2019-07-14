@@ -1,0 +1,44 @@
+{
+    "name": "Sonny Lazuardi ",
+    "sex": "male",
+    "published": true,
+    "description": "",
+    "company": "Grab",
+    "profile_image": "https://avatars3.githubusercontent.com/u/856609?s=460&v=4",
+    "skills": [
+        "react",
+        "react native",
+        "NodeJS",
+        "graphQL"
+    ],
+    "links": [
+        {
+            "label": "blog",
+            "url": "https://sonnylab.com/"
+        },
+        {
+            "label": "facebook",
+            "url": "https://facebook.com/sonny.lazuardi"
+        },
+        {
+            "label": "github",
+            "url": "https://github.com/sonnylazuardi"
+        },
+        {
+            "label": "linkedin",
+            "url": "https://sg.linkedin.com/in/sonnylazuardi"
+        },
+        {
+            "label": "medium",
+            "url": "https://medium.com/@sonnylazuardi"
+        },
+        {
+            "label": "twitter",
+            "url": "https://twitter.com/sonnylazuardi"
+        },
+        {
+            "label": "youtube",
+            "url": ""
+        }
+    ]
+}

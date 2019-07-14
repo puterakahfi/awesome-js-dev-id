@@ -1,0 +1,21 @@
+{
+    "name": "Yohan Totting ",
+    "sex": "male",
+    "published": true,
+    "description": "",
+    "company": "",
+    "profile_image": "https://miro.medium.com/fit/c/256/256/1*m3vsZ-XUKhkqDSF4-h2Apw.jpeg",
+    "skills": [
+        "Web Platform"
+    ],
+    "links": [
+        {
+            "label": "medium",
+            "url": "https://medium.com/@tyohan"
+        },
+        {
+            "label": "twitter",
+            "url": "https://twitter.com/tyohan"
+        }
+    ]
+}

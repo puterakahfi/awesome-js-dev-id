@@ -1,0 +1,18 @@
+{
+    "name": "Zufrizal Yordan ",
+    "sex": "male",
+    "published": true,
+    "description": "",
+    "company": "",
+    "profile_image": "https://miro.medium.com/fit/c/256/256/0*6yo6Y7mdltdLtWkS.jpeg",
+    "skills": [
+        "react",
+        "NodeJS"
+    ],
+    "links": [
+        {
+            "label": "medium",
+            "url": "https://medium.com/@zufrizalyordan"
+        }
+    ]
+}

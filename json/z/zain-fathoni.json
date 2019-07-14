@@ -1,0 +1,17 @@
+{
+    "name": "Zain Fathoni ",
+    "sex": "male",
+    "published": true,
+    "description": "",
+    "company": "",
+    "profile_image": "https://miro.medium.com/fit/c/256/256/1*YHFW8gwauysYu5aweNNNfA.jpeg",
+    "skills": [
+        "react"
+    ],
+    "links": [
+        {
+            "label": "medium",
+            "url": "https://medium.com/@zain.fathoni"
+        }
+    ]
+}
