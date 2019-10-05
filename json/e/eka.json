@@ -1,0 +1,26 @@
+{
+    "name": "Eka",
+    "sex": "male",
+    "published": true,
+    "description": "",
+    "company": "",
+    "profile_image": "https://avatars1.githubusercontent.com/u/6597211?s=460&v=4",
+    "skills": [
+        "react",
+        "gatsby"
+    ],
+    "links": [
+        {
+            "label": "github",
+            "url": "https://github.com/ekafyi"
+        },
+        {
+            "label": "twitter",
+            "url": "https://twitter.com/ekafyi"
+        },
+        {
+            "label": "link",
+            "url": "https://dev.to/ekafyi"
+        }
+    ]
+}
