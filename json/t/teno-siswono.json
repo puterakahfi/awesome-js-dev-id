@@ -1,0 +1,20 @@
+{
+    "name": "Teno Siswono",
+    "sex": "male",
+    "published": true,
+    "description": "",
+    "company": "Bukalapak",
+    "profile_image": "https://avatars2.githubusercontent.com/u/3335900?s=460&v=4",
+    "skills": [
+        "react",
+        "nodejs",
+        "typscript",
+        "vue"
+    ],
+    "links": [
+        {
+            "label": "github",
+            "url": "https://github.com/tenosiswono"
+        }
+    ]
+}
