@@ -1,0 +1,26 @@
+{
+    "name": "Dimitri Wahyudiputra ",
+    "published": true,
+    "description": "",
+    "company": "",
+    "profile_image": "https://avatars0.githubusercontent.com/u/24858147?s=460&v=4",
+    "tags": [
+        "vuejs"
+    ],
+    "skills": [
+        "Angular",
+        "Svelte",
+        "Webflow",
+        "graphQL"
+    ],
+    "links": [
+        {
+            "label": "github",
+            "url": "https://github.com/dmtrxw"
+        },
+        {
+            "label": "linkedin",
+            "url": "https://www.linkedin.com/in/dimitri-wahyudiputra/"
+        }
+    ]
+}
