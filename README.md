@@ -22,7 +22,8 @@
 
 ## Versi Web Apps
 
-https://javascript-indonesias.github.io/awesome-js-dev-indonesia/
++ https://javascript-indonesias.github.io/awesome-js-dev-indonesia/
++ https://puterakahfi.github.io/jsid/
 
 ## A
 
@@ -146,6 +147,15 @@ https://javascript-indonesias.github.io/awesome-js-dev-indonesia/
 
 ## D
 
++ **Dimitri Wahyudiputra**
+  - Skills: #Javascript #Vim
+  - Github: [dmtrxw](https://github.com/dmtrxw)
+  - Facebook: N/A
+  - Twitter: N/A
+  - LinkedIn: [Dimitri Wahyudiputra](https://www.linkedin.com/in/dimitri-wahyudiputra/)
+  - Blog: N/A
+  - Medium: N/A
+
   **Dwi Agustianto**
   - Skills: #Angular, #Svelte, #WebDesign, #Flow
   - Github: [agusID](https://github.com/agusID)
@@ -158,6 +168,15 @@ https://javascript-indonesias.github.io/awesome-js-dev-indonesia/
 [⬆️ Kembali ke Navigasi](#navigasi-berdasar-abjad)
 
 ## E
+
++ **Eka**
+  - Skills: N/A
+  - Github: [ekafyi](https://github.com/ekafyi)
+  - Facebook: N/A
+  - Twitter: [@ekafyi](https://twitter.com/ekafyi)
+  - LinkedIn: N/A
+  - Blog: [dev.to/ekafyi](https://dev.to/ekafyi)
+  - Medium: N/A
 
 [⬆️ Kembali ke Navigasi](#navigasi-berdasar-abjad)
 
@@ -202,6 +221,15 @@ https://javascript-indonesias.github.io/awesome-js-dev-indonesia/
 [⬆️ Kembali ke Navigasi](#navigasi-berdasar-abjad)
 
 ## G
+
++ **Gazandi Cahyadarma**
+  - Skills: #React, #NodeJs, #Go, #Ruby, #Java
+  - Github: [gazandic](https://github.com/gazandic)
+  - Facebook: N/A
+  - Twitter: N/A
+  - LinkedIn: [Gazandi Cahyadarma](https://www.linkedin.com/in/gazandi-cahyadarma-86b726a1)
+  - Blog: N/A
+  - Medium: N/A
 
 [⬆️ Kembali ke Navigasi](#navigasi-berdasar-abjad)
 
@@ -490,6 +518,26 @@ https://javascript-indonesias.github.io/awesome-js-dev-indonesia/
 
 ## T
 
+
++ **Teofilus Candra**
+  - Skills: #React, #NodeJs, #ReactNative, #Vue
+  - Github: https://github.com/teofiluscandra
+  - Facebook: https://www.facebook.com/teofiluscandra
+  - Twitter: N/A
+  - LinkedIn: N/A
+  - Blog: N/A
+  - Medium: [@teofilus](https://medium.com/@teofiluscandra)
+
++ **Teno Siswono**
+  - Skills: #React, #Vue, #NodeJs, #Typescript
+  - Github: [tenosiswono](https://github.com/tenosiswono)
+  - Facebook: N/A
+  - Twitter: N/A
+  - LinkedIn: N/A
+  - Blog: N/A
+  - Medium: N/A
+
+
 [⬆️ Kembali ke Navigasi](#navigasi-berdasar-abjad)
 
 ## U
@@ -497,6 +545,15 @@ https://javascript-indonesias.github.io/awesome-js-dev-indonesia/
 [⬆️ Kembali ke Navigasi](#navigasi-berdasar-abjad)
 
 ## V
+
++ **Velta Azizah Destiana**
+  - Skills: N/A
+  - Github: Github: [veltadestiana](https://github.com/veltadestiana)
+  - Facebook: N/A
+  - Twitter: [@velta__](https://twitter.com/velta__)
+  - LinkedIn: [Velta Azizah Destiana](https://www.linkedin.com/in/velta/)
+  - Blog: N/A
+  - Medium: [@velta](https://medium.com/@velta)
 
 [⬆️ Kembali ke Navigasi](#navigasi-berdasar-abjad)
 
