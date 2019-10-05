@@ -1,0 +1,28 @@
+{
+    "name": "Teofilus Candra",
+    "sex": "male",
+    "published": true,
+    "description": "",
+    "company": "Bukalapak",
+    "profile_image": "https://avatars2.githubusercontent.com/u/3335900?s=460&v=4",
+    "skills": [
+        "react",
+        "nodejs",
+        "react native",
+        "vue"
+    ],
+    "links": [
+        {
+            "label": "facebook",
+            "url": "https://github.com/teofiluscandra"
+        },
+        {
+            "label": "github",
+            "url": "https://github.com/teofiluscandra"
+        },
+        {
+            "label": "medium",
+            "url": "https://medium.com/@teofiluscandra"
+        }
+    ]
+}
