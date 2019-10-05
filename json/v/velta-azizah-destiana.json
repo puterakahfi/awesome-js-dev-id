@@ -1,0 +1,31 @@
+{
+    "name": "Velta Azizah Destiana ",
+    "published": true,
+    "description": "",
+    "company": "",
+    "profile_image": "https://avatars1.githubusercontent.com/u/9443605?s=460&v=4",
+    "tags": [
+        "vuejs"
+    ],
+    "skills": [
+        "N/A"
+    ],
+    "links": [
+        {
+            "label": "github",
+            "url": "https://github.com/veltadestiana"
+        },
+        {
+            "label": "linkedin",
+            "url": "https://www.linkedin.com/in/velta/"
+        },
+        {
+            "label": "medium",
+            "url": "https://medium.com/@velta"
+        },
+        {
+            "label" : "twitter",
+            "url": "https://twitter.com/velta__"
+        }
+    ]
+}
