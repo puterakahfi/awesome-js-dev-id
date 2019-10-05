@@ -1,0 +1,21 @@
+{
+    "name": "Gazandi Cahyadarma",
+    "sex": "male",
+    "published": true,
+    "description": "",
+    "company": "",
+    "profile_image": "https://avatars2.githubusercontent.com/u/9495683?s=460&v=4",
+    "skills": [
+        "react",
+        "nodejs",
+        "go",
+        "ruby",
+        "java"
+    ],
+    "links": [
+        {
+            "label": "github",
+            "url": "https://github.com/gazandic"
+        }
+    ]
+}
